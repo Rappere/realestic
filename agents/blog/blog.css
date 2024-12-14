@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #007bff;
+}
+
+.nav-link {
+    color: #333;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+}
+
+.blog-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cta-container {
+    background-color: #007bff;
+    color: white;
+}
+
+.cta-btn {
+    background-color: #ffffff;
+    color: #007bff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer a {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #007bff;
+}

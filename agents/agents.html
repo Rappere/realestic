@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Website</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="agent.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/ip.html">Realestic</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/propertise/pp.html">Properties</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/agents/agents.html">Agents</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/agents/blog/blog.html">Blog</a></li>
+                </ul>
+                <a href="/KGF/ok.html" class="btn btn-primary ms-3">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Agents Section -->
+    <div class="container text-center mt-5">
+        <h1 class="display-4 mb-4">Meet our exceptional agents for a <span class="text-primary">seamless</span> experience</h1>
+        <div class="row justify-content-center">
+            <!-- Ethan Carter Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Screenshot 2024-12-13 130346.png" class="card-img-top" alt="Ethan Carter">
+                    <div class="card-body">
+                        <h5 class="card-title">Ethan Carter</h5>
+                        <p class="card-text">Senior Consultant</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ethanModal">Contact Ethan</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sophia Turner Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Screenshot 2024-12-13 130420.png" class="card-img-top" alt="Sophia Turner">
+                    <div class="card-body">
+                        <h5 class="card-title">Sophia Turner</h5>
+                        <p class="card-text">Luxury Specialist</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sophiaModal">Contact Sophia</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Noah Harrison Card -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Screenshot 2024-12-13 130507.png" class="card-img-top" alt="Noah Harrison">
+                    <div class="card-body">
+                        <h5 class="card-title">Noah Harrison</h5>
+                        <p class="card-text">Property Manager</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#noahModal">Contact Noah</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals for Contacting Agents -->
+    <!-- Ethan Modal -->
+    <div class="modal fade" id="ethanModal" tabindex="-1" aria-labelledby="ethanModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ethanModalLabel">Contact Ethan Carter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Contact Ethan Carter at ethan@example.com for more information.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sophia Modal -->
+    <div class="modal fade" id="sophiaModal" tabindex="-1" aria-labelledby="sophiaModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sophiaModalLabel">Contact Sophia Turner</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Contact Sophia Turner at sophia@example.com for luxury inquiries.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Noah Modal -->
+    <div class="modal fade" id="noahModal" tabindex="-1" aria-labelledby="noahModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="noahModalLabel">Contact Noah Harrison</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Contact Noah Harrison at noah@example.com for property management services.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cta-container">
+        <div class="cta-content">
+            <h3>Want to Book a Call?</h3>
+            <h2>Ready to make your step in real estate? Book Now.</h2>
+            <a href="agents.html" class="cta-btn">View Properties</a>
+        </div>
+    </div>
+    
+    
+
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white py-5 mt-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h5>Discover Real Estate Ideas from your own Ease!</h5>
+                    <div>
+                        <a href="#" class="text-white me-3"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h6>Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Home</a></li>
+                        <li><a href="#" class="text-white">About Us</a></li>
+                        <li><a href="#" class="text-white">Our Agents</a></li>
+                        <li><a href="#" class="text-white">Contact Us</a></li>
+                        <li><a href="#" class="text-white">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>Main Pages</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Properties</a></li>
+                        <li><a href="#" class="text-white">Properties Type</a></li>
+                        <li><a href="#" class="text-white">Bedrooms</a></li>
+                        <li><a href="#" class="text-white">Categories</a></li>
+                        <li><a href="#" class="text-white">Blogs</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6>Other</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Form Submit</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer (Copyright) -->
+    <footer class="bg-dark text-white py-3 text-center">
+        <div class="container">
+            <p class="mb-0">© 2024 Realestic. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
