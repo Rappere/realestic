@@ -1,0 +1,365 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.nav-link {
+    color: #333;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f8f9fa;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.hero img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Values Section */
+.values h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.values ul {
+    margin-top: 1rem;
+}
+
+.values ul li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.values ul li .badge {
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+/* Properties Section */
+.properties {
+    padding: 3rem 1rem;
+    background-color: #f8f8f8;
+}
+
+.properties h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+
+.properties .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.properties .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.properties .card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.properties .badge {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.7rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.properties .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.properties .card-body {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.properties .d-flex span {
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+}
+
+/* Advantages Section */
+.feature-card {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.feature-card:hover {
+    transform: scale(1.05);
+}
+
+.feature-icon {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+}
+
+/* Testimonials */
+.testimonial-card {
+    font-size: 1rem;
+    font-style: italic;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #021122;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    opacity: 1;
+}
+
+.carousel-item {
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-inner {
+    padding: 20px 0;
+}
+
+.carousel-item img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.carousel-item .media-body h5 {
+    font-weight: bold;
+    color: #333;
+}
+
+.carousel-item .media-body p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* Blogs Section Styling */
+.blogs-section {
+    padding: 3rem 1rem; /* Section padding */
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.blogs-section h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff; /* Primary color for section subtitle */
+    text-transform: uppercase; /* Adds emphasis */
+    text-align: center; /* Center-align the text */
+    margin-bottom: 0.5rem;
+}
+
+.blogs-section h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333; /* Neutral dark color */
+    text-align: center; /* Center-align the text */
+    margin-bottom: 2rem;
+}
+
+/* Blog Card Styling */
+.blog-card {
+    background-color: #fff; /* White card background */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+    overflow: hidden; /* Prevents content overflow */
+    padding: 1rem;
+    text-align: center;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px); /* Slight hover lift */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.blog-card img {
+    border-radius: 10px; /* Rounded image corners */
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Maintains aspect ratio */
+}
+
+.blog-card h6 {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #007bff; /* Primary color for blog category */
+    margin-top: 1rem;
+}
+
+.blog-card h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333; /* Dark color for blog title */
+    margin-top: 0.5rem;
+    line-height: 1.5;
+}
+
+
+.cta-container {
+    background-color: #1E61F1; /* Blue background */
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.cta-content {
+    text-align: center;
+    color: white;
+    max-width: 800px;
+}
+
+.cta-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.cta-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: white;
+    color: #1E61F1;
+    padding: 12px 30px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #155ab6;
+    color: white;
+}
+
+
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .blogs-section h2 {
+        font-size: 1.8rem; /* Adjusts heading size on smaller screens */
+    }
+
+    .blog-card {
+        margin-bottom: 1.5rem; /* Adds spacing between cards */
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 2rem 0;
+}
+
+footer h6 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #007bff;
+    font-size: 1rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .bi {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    color: #007bff;
+}
